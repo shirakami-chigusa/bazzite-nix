@@ -22,7 +22,7 @@ dnf5 -y copr enable yalter/niri
 dnf5 -y install niri
 
 dnf5 -y copr enable blakegardner/xremap
-dnf5 install xremap-niri
+dnf5 -y install xremap-niri
 
 # Disable COPRs so they don't end up enabled on the final image:
 dnf5 -y copr disable yalter/niri
