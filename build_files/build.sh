@@ -4,7 +4,7 @@ set -ouex pipefail
 
 ### Add nix
 
-mkdir -p /nix
+# mkdir -p /nix
 
 ### Install packages
 
