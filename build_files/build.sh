@@ -21,11 +21,15 @@ dnf5 install fcitx5 fcitx5-gtk fcitx5-mozc
 dnf5 -y copr enable yalter/niri
 dnf5 -y install niri
 
+dnf5 -y copr enable scottames/ghostty
+dnf5 -y install ghostty
+
 dnf5 -y copr enable blakegardner/xremap
 dnf5 -y install xremap-niri
 
 # Disable COPRs so they don't end up enabled on the final image:
 dnf5 -y copr disable yalter/niri
+dnf5 -y copr disable scottames/ghostty
 dnf5 -y copr disable blakegardner/xremap
 
 #### Example for enabling a System Unit File
