@@ -15,7 +15,7 @@ mkdir -p /nix
 # https://mirrors.rpmfusion.org/mirrorlist?path=free/fedora/updates/39/x86_64/repoview/index.html&protocol=https&redirect=1
 
 # fcitx5 はデフォルトで入っている。
-dnf5 remove fcitx5 fcitx5-gtk fcitx5-mozc
+dnf5 -y remove fcitx5 fcitx5-gtk fcitx5-mozc
 
 # Use a COPR
 #
